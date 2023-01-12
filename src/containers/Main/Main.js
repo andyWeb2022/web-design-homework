@@ -32,7 +32,7 @@ const Main = () => {
             </div>
             <div className='flex justify-center items-center h-[800px]'>
                 <p className='text-[70px] mr-[20px] cursor-pointer' onClick={()=>{setImageNumber(imageNumber - 1)}}>&lt;</p>
-                <Image className='mt-[50px]' src={`/images/${imagesList[imageNumber]}`} alt="" height={700} width={500} />
+                <Image className='mt-[50px]' src={`/images/${imagesList[imageNumber]}`} alt="logo" height={700} width={500} />
                 <p className='text-[70px] ml-[20px] cursor-pointer' onClick={()=>{setImageNumber(imageNumber + 1)}}>&gt;</p>
             </div>
         </div>
